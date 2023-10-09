@@ -10,8 +10,10 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+
 import ru.kata312.kata312.model.User;
 import ru.kata312.kata312.services.UserService;
+
 
 @Controller
 @RequestMapping("/user")
